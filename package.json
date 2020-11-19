@@ -6,6 +6,8 @@
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.0",
     "@testing-library/user-event": "^12.2.2",
+    "axios": "^0.21.0",
+    "bootstrap": "^4.5.3",
     "electron": "^11.0.1",
     "express": "^4.17.1",
     "fs": "0.0.1-security",
@@ -21,7 +23,7 @@
   "scripts": {
     "start": "react-scripts start",
     "react-electron": "node startup.js",
-    "elec-start":"electron .",
+    "elec-start": "electron .",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
